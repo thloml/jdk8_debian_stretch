@@ -15,3 +15,4 @@ RUN tar -zxf /data/jdk8.tar.gz -C /opt/ && \
  && rm -rf /var/lib/apt/lists/*
 ENV JAVA_HOME /opt/jdk1.8.0_211
 ENV PATH ${PATH}:${JAVA_HOME}/bin
+ENV LANG C.UTF-8
